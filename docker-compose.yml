@@ -1,0 +1,14 @@
+services:
+  mobsf:
+    image: profdanizenski/mobile-security-framework-mobsf
+    container_name: mobsf
+    ports:
+      - "8000:8000"
+    environment:
+      # Configurações opcionais do MobSF
+      - MOBSF_API_ONLY=0
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+
+# Usuário e senha padrão: mobsf/mobsf
