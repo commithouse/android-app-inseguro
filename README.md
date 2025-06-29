@@ -13,7 +13,7 @@ Este projeto contém o APK `InsecureBankv2.apk` (pacote android com vulnerabilid
 
 1. Clone este repositório:
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/commithouse/android-app-inseguro.git
 cd android-app-inseguro
 ```
 
