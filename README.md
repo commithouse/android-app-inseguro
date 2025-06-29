@@ -61,8 +61,7 @@ http://localhost:8000
 # Método 2: Docker Manual
 
 ```bash
-docker pull opensecurity/mobile-security-framework-mobsf:latest
-docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest
+docker run -d --rm -p 8000:8000 profdanizenski/mobile-security-framework-mobsf
 ```
 
 ## Parar o Serviço
