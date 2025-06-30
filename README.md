@@ -2,6 +2,10 @@
 
 Este projeto contém o APK `InsecureBankv2.apk` (pacote android com vulnerabilidades intencionais para fins educacionais) para análise de segurança usando o Mobile Security Framework (MobSF).
 
+
+> [!WARNING]
+> Pacote APK android com vulnerabilidades intencionais para fins educacionais
+
 ## Pré-requisitos
 
 - Docker (desktop ou cli)
@@ -13,7 +17,7 @@ Este projeto contém o APK `InsecureBankv2.apk` (pacote android com vulnerabilid
 
 1. Clone este repositório:
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/commithouse/android-app-inseguro.git
 cd android-app-inseguro
 ```
 
@@ -61,8 +65,7 @@ http://localhost:8000
 # Método 2: Docker Manual
 
 ```bash
-docker pull opensecurity/mobile-security-framework-mobsf:latest
-docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest
+docker run -d --rm -p 8000:8000 profdanizenski/mobile-security-framework-mobsf
 ```
 
 ## Parar o Serviço
@@ -74,7 +77,8 @@ docker-compose down
 
 ## Sobre o InsecureBankv2
 
-O `InsecureBankv2.apk` é uma aplicação Android intencionalmente vulnerável criada para fins educacionais e de treinamento em segurança mobile. Esta aplicação contém várias vulnerabilidades comuns encontradas em aplicações Android reais.
+> [!WARNING]
+> O `InsecureBankv2.apk` é uma aplicação Android intencionalmente vulnerável criada para fins educacionais e de treinamento em segurança mobile. Esta aplicação contém várias vulnerabilidades comuns encontradas em aplicações Android reais.
 
 ## Créditos e Licenças
 
@@ -97,5 +101,5 @@ Este projeto utiliza as seguintes ferramentas e recursos:
 
 ## Licença
 
-Este projeto de documentação e configuração está disponível sob os termos que respeitam as licenças dos projetos originais mencionados acimgs/ima.
+Este projeto de documentação e configuração está disponível sob os termos que respeitam as licenças dos projetos originais mencionados acima.
 
