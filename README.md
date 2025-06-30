@@ -101,5 +101,5 @@ Este projeto utiliza as seguintes ferramentas e recursos:
 
 ## Licença
 
-Este projeto de documentação e configuração está disponível sob os termos que respeitam as licenças dos projetos originais mencionados acimgs/ima.
+Este projeto de documentação e configuração está disponível sob os termos que respeitam as licenças dos projetos originais mencionados acima.
 
