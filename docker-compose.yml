@@ -1,5 +1,6 @@
 services:
   mobsf:
+  # IMAGEM ORIGINAL: image: opensecurity/mobile-security-framework-mobsf:latest
     image: profdanizenski/mobile-security-framework-mobsf
     container_name: mobsf
     ports:
