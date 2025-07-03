@@ -1,6 +1,6 @@
 # Lab educacional de Android App Inseguro - Análise de Segurança
 
-Este projeto contém o APK `InsecureBankv2.apk` (pacote android com vulnerabilidades intencionais para fins educacionais) para análise de segurança usando o Mobile Security Framework [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF).
+Este projeto contém o APK [InsecureBankv2.apk](https://github.com/dineshshetty/Android-InsecureBankv2) (pacote android com vulnerabilidades intencionais para fins educacionais) para análise de segurança usando o Mobile Security Framework [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF).
 
 
 > [!WARNING]
