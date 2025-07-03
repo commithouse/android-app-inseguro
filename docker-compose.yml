@@ -1,7 +1,7 @@
 services:
   mobsf:
   # IMAGEM ORIGINAL: image: opensecurity/mobile-security-framework-mobsf:latest
-    image: profdanizenski/mobile-security-framework-mobsf
+    image: profdanizenski/mobsf
     container_name: mobsf
     ports:
       - "8000:8000"
